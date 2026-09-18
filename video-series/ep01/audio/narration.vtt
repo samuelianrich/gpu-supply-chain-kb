@@ -1,0 +1,152 @@
+1
+00:00:00,100 --> 00:00:02,700
+From quartz to polysilicon.
+
+2
+00:00:02,650 --> 00:00:14,662
+This is episode one of From Sand to GPU — a supply-chain series drawn from our semiconductor knowledge base, with claims labeled the same way we label them in the docs: confirmed, likely, estimated, or still unknown.
+
+3
+00:00:14,662 --> 00:00:16,737
+Start with the myth.
+
+4
+00:00:16,737 --> 00:00:20,812
+Popular stories say computer chips begin as beach sand.
+
+5
+00:00:20,812 --> 00:00:24,912
+That line is sticky because silicon dioxide is everywhere.
+
+6
+00:00:24,912 --> 00:00:29,425
+But semiconductor silicon does not start as casual shoreline grit.
+
+7
+00:00:29,425 --> 00:00:39,175
+It starts as silica selected for chemistry and contamination control — typically quartzite or high-purity quartz — then mined and beneficiated before any furnace ever lights.
+
+8
+00:00:39,175 --> 00:00:43,437
+Next comes carbothermic reduction in submerged-arc furnaces.
+
+9
+00:00:43,437 --> 00:00:53,750
+Carbon reductants and intense electricity convert silica into metallurgical-grade silicon, often called M G silicon, at roughly ninety-eight to ninety-nine percent purity.
+
+10
+00:00:53,750 --> 00:00:57,175
+That material is industrially valuable.
+
+11
+00:00:57,175 --> 00:01:01,100
+It is still nowhere near ready for a leading-edge logic die.
+
+12
+00:01:01,100 --> 00:01:05,762
+To climb the purity ladder, producers run chemical purification.
+
+13
+00:01:05,762 --> 00:01:13,800
+Common industrial routes move through chlorosilanes and Siemens-style chemical vapor deposition, growing polysilicon as rods or chunks.
+
+14
+00:01:13,800 --> 00:01:20,562
+This stage is where specialty chemicals, distillation trains, clean handling, and brutal energy intensity show up.
+
+15
+00:01:20,562 --> 00:01:26,950
+Qualification is the real product: a plant can make silicon and still fail electronic-grade acceptance.
+
+16
+00:01:26,950 --> 00:01:32,150
+Polysilicon then splits into two markets that share chemistry but not destiny.
+
+17
+00:01:32,150 --> 00:01:38,200
+Solar-grade polysilicon is extremely pure and volume-driven — it feeds the photovoltaic boom.
+
+18
+00:01:38,200 --> 00:01:41,525
+Electronic-grade polysilicon is rarer.
+
+19
+00:01:41,525 --> 00:01:50,175
+It is the ultra-high-purity feedstock for Czochralski crystal growth, and only a small set of producers reliably qualify for semiconductor wafers.
+
+20
+00:01:50,175 --> 00:01:55,587
+Solar and electronic grades are not freely interchangeable without requalification.
+
+21
+00:01:55,587 --> 00:02:03,312
+There is a second choke point most GPU buyers never see: high-purity quartz used to make fused-quartz crucibles for crystal growth.
+
+22
+00:02:03,312 --> 00:02:05,837
+Geology is concentrated.
+
+23
+00:02:05,837 --> 00:02:13,287
+United States sources such as the Spruce Pine area appear repeatedly in mineral surveys, alongside other global deposits.
+
+24
+00:02:13,287 --> 00:02:19,012
+Mine disruptions, storms, or crucible bottlenecks can ripple into wafer capacity.
+
+25
+00:02:19,012 --> 00:02:24,075
+If you track AI hardware, this is a real early-warning signal, not trivia.
+
+26
+00:02:24,075 --> 00:02:27,650
+Why does any of this matter for an AI GPU?
+
+27
+00:02:27,650 --> 00:02:33,212
+Without electronic-grade polysilicon, you do not get three-hundred-millimeter wafers.
+
+28
+00:02:33,212 --> 00:02:37,725
+Without those wafers, foundries cannot print modern logic dies.
+
+29
+00:02:37,725 --> 00:02:42,712
+Without those dies, there is no advanced package stuffed with high-bandwidth memory.
+
+30
+00:02:42,712 --> 00:02:46,325
+Memory chips drink from the same silicon river.
+
+31
+00:02:46,325 --> 00:02:55,862
+So when people debate CoWoS capacity and HBM allocation, remember the chain begins upstream — in quartz, furnaces, and electronic-grade qualification.
+
+32
+00:02:55,862 --> 00:02:59,587
+What should a supply-chain tracker watch from this episode?
+
+33
+00:02:59,587 --> 00:03:02,912
+High-purity quartz and crucible disruptions.
+
+34
+00:03:02,912 --> 00:03:08,537
+Electronic-grade polysilicon contracts, spot chatter, and qualification news.
+
+35
+00:03:08,537 --> 00:03:12,712
+Geographic concentration of electronic-grade capacity.
+
+36
+00:03:12,712 --> 00:03:20,875
+And energy costs in metallurgical silicon regions, because electricity is part of the bill of materials long before a GPU has a name.
+
+37
+00:03:20,875 --> 00:03:28,387
+That is episode one: from quartz to electronic-grade polysilicon — the chemical foundation under every AI accelerator.
+
+38
+00:03:28,387 --> 00:03:35,600
+Next time: pulling single-crystal ingots and slicing three-hundred-millimeter wafers, the bridge from chemistry to the fab.
+
