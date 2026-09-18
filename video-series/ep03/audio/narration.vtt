@@ -1,0 +1,124 @@
+1
+00:00:00,100 --> 00:00:02,500
+Inside the front-end fab.
+
+2
+00:00:02,450 --> 00:00:06,100
+This is episode three of From Sand to GPU.
+
+3
+00:00:06,100 --> 00:00:09,875
+A blank three-hundred-millimeter wafer enters a fab.
+
+4
+00:00:09,875 --> 00:00:19,850
+Hundreds to more than a thousand process steps later, that wafer holds transistors and metal interconnects — the logic die that advanced packaging will later marry to high-bandwidth memory.
+
+5
+00:00:19,850 --> 00:00:23,175
+Front-end-of-line work forms the transistors.
+
+6
+00:00:23,175 --> 00:00:39,800
+The loop repeats across modules: cleans and surface prep, thin films and oxidation, photolithography to transfer patterns, plasma or wet etch to carve them, ion implant and anneal to dope, deposition methods such as CVD and ALD, and chemical-mechanical planarization to flatten the topography.
+
+7
+00:00:39,800 --> 00:00:45,550
+At the leading edge, those modules build FinFET or gate-all-around transistor structures.
+
+8
+00:00:45,550 --> 00:00:48,575
+Back-end-of-line work builds the wiring.
+
+9
+00:00:48,575 --> 00:00:59,562
+Modern logic typically uses copper dual-damascene interconnects with low-k or ultra-low-k dielectrics stacked across many metal layers, then passivation and pad or bump preparation for packaging.
+
+10
+00:00:59,562 --> 00:01:06,112
+Exact metal-layer counts are product-specific and often undisclosed, so treat layer-count rumors carefully.
+
+11
+00:01:06,112 --> 00:01:09,725
+Business models matter as much as process modules.
+
+12
+00:01:09,725 --> 00:01:17,100
+AI GPUs from companies like NVIDIA are usually fabless designs manufactured at foundries such as TSMC.
+
+13
+00:01:17,100 --> 00:01:24,212
+NVIDIA’s disclosures emphasize reliance on third parties to manufacture, assemble, package, and test products.
+
+14
+00:01:24,212 --> 00:01:31,687
+High-bandwidth memory, by contrast, typically comes from integrated device manufacturers that design and fabricate in-house.
+
+15
+00:01:31,687 --> 00:01:36,225
+Lithography is the headline bottleneck — and it is also misunderstood.
+
+16
+00:01:36,225 --> 00:01:42,350
+Extreme ultraviolet scanners from ASML pattern the most critical fine layers at advanced nodes.
+
+17
+00:01:42,350 --> 00:01:48,337
+Deep-ultraviolet immersion tools still handle a large share of layers even on so-called EUV nodes.
+
+18
+00:01:48,337 --> 00:01:52,387
+EUV does not replace the entire lithography stack.
+
+19
+00:01:52,387 --> 00:01:58,587
+High-NA EUV is the next density step, with early tool scarcity as part of the roadmap story.
+
+20
+00:01:58,587 --> 00:02:04,837
+Around lithography sit etch, deposition, implant, CMP, wet clean, and metrology.
+
+21
+00:02:04,837 --> 00:02:12,825
+Segment leaders include firms such as ASML, Applied Materials, Lam Research, Tokyo Electron, KLA, and others.
+
+22
+00:02:12,825 --> 00:02:21,212
+The exact tool-of-record inside a specific foundry node for a specific NVIDIA die is usually unknown in public sources — and should be labeled that way.
+
+23
+00:02:21,212 --> 00:02:25,087
+Yield economics get brutal on large GPU dies.
+
+24
+00:02:25,087 --> 00:02:32,150
+One killer defect can destroy an enormous amount of silicon value, especially near-reticle-scale compute tiles.
+
+25
+00:02:32,150 --> 00:02:37,575
+Multi-die packages can shift some burden into known-good-die strategies at packaging time.
+
+26
+00:02:37,575 --> 00:02:43,825
+Export controls on advanced tools and nodes add geographic policy risk on top of physics and CapEx.
+
+27
+00:02:43,825 --> 00:02:56,100
+The front-end’s job for an AI platform is to produce GPU compute dies — and often companion silicon such as I/O dies, CPU dies like Vera, and networking or DPU chips that may not all share the same leading-edge node.
+
+28
+00:02:56,100 --> 00:03:01,487
+Those dies then leave the classic single-chip path and enter advanced packaging with HBM.
+
+29
+00:03:01,487 --> 00:03:14,825
+Trackers should watch foundry CapEx and wafer pricing by node, ASML EUV shipments and backlog, foundry commentary on high-performance computing mix, export-control entity lists, and photomask lead times that gate tapeout velocity.
+
+30
+00:03:14,825 --> 00:03:18,775
+That is episode three: blank wafer to logic die.
+
+31
+00:03:18,775 --> 00:03:25,500
+Next time: advanced packaging — CoWoS-class integration, where the GPU finally meets the HBM stacks.
+

@@ -1,0 +1,144 @@
+1
+00:00:00,100 --> 00:00:02,337
+From ingot to wafer.
+
+2
+00:00:02,287 --> 00:00:05,887
+This is episode two of From Sand to GPU.
+
+3
+00:00:05,887 --> 00:00:12,075
+Episode one ended with electronic-grade polysilicon — ultra-pure feedstock that still is not a chip.
+
+4
+00:00:12,075 --> 00:00:20,375
+In this episode, that feedstock becomes a single crystal, then a stack of mirror-flat disks that a foundry can actually print transistors on.
+
+5
+00:00:20,375 --> 00:00:26,362
+Electronic-grade polysilicon is melted in a fused-quartz crucible made from high-purity quartz.
+
+6
+00:00:26,362 --> 00:00:33,625
+A seed crystal dips into the melt, and the Czochralski process slowly pulls a single-crystal ingot, sometimes called a boule.
+
+7
+00:00:33,625 --> 00:00:39,375
+Dopants such as boron or phosphorus set the substrate resistivity the device designers ordered.
+
+8
+00:00:39,375 --> 00:00:44,237
+This is where crystal quality is born — or where latent defects are locked in.
+
+9
+00:00:44,237 --> 00:00:49,550
+The ingot is cropped, ground, and marked with a notch or flat for crystal orientation.
+
+10
+00:00:49,550 --> 00:00:53,312
+Then a multi-wire saw slices it into raw wafers.
+
+11
+00:00:53,312 --> 00:00:55,825
+Those slices are still rough.
+
+12
+00:00:55,825 --> 00:00:59,550
+Lapping, etching, and precision polishing follow.
+
+13
+00:00:59,550 --> 00:01:09,362
+Many logic wafers also receive an epitaxial layer — a thin, engineered crystal skin grown on the polished surface to improve the starting material for advanced devices.
+
+14
+00:01:09,362 --> 00:01:14,975
+Leading-edge AI GPU logic is overwhelmingly built on three-hundred-millimeter wafers.
+
+15
+00:01:14,975 --> 00:01:19,262
+That is the workhorse diameter for modern foundry capacity.
+
+16
+00:01:19,262 --> 00:01:22,487
+Two-hundred-millimeter wafers still matter.
+
+17
+00:01:22,487 --> 00:01:34,762
+Power-management ICs, analog parts, and specialty chips often ride two-hundred-millimeter lines — and they still show up on the same system board as a GPU, even when the compute die itself is three-hundred-millimeter.
+
+18
+00:01:34,762 --> 00:01:38,225
+Silicon wafer supply is an oligopoly.
+
+19
+00:01:38,225 --> 00:01:45,450
+The names that dominate industry maps include Shin-Etsu, SUMCO, GlobalWafers, Siltronic, and SK Siltron.
+
+20
+00:01:45,450 --> 00:01:53,900
+Exact share percentages move year to year, so treat market-share figures as estimates unless they come from primary SEMI tables or company filings.
+
+21
+00:01:53,900 --> 00:02:00,262
+The confirmed risk is concentration itself: a few producers, heavy CapEx, and long lead times.
+
+22
+00:02:00,262 --> 00:02:08,187
+Wafer makers obsess over crystal defects, oxygen control, flatness, nanotopography, particles, and resistivity.
+
+23
+00:02:08,187 --> 00:02:12,362
+A wafer that fails prime specs never becomes a leading-edge die.
+
+24
+00:02:12,362 --> 00:02:17,375
+Expanding three-hundred-millimeter capacity takes years and enormous capital.
+
+25
+00:02:17,375 --> 00:02:21,837
+It is not a short-cycle response when AI demand spikes overnight.
+
+26
+00:02:21,837 --> 00:02:27,987
+For a modern AI accelerator, three-hundred-millimeter wafers feed more than the GPU logic die.
+
+27
+00:02:27,987 --> 00:02:31,325
+Leading HBM DRAM is also wafer-based.
+
+28
+00:02:31,325 --> 00:02:37,062
+In some CoWoS-S packaging flows, additional silicon is consumed as an interposer.
+
+29
+00:02:37,062 --> 00:02:42,762
+Silicon intensity per shipped GPU package is higher than a single-chip story suggests.
+
+30
+00:02:42,762 --> 00:02:46,612
+What should a supply-chain tracker watch after this episode?
+
+31
+00:02:46,612 --> 00:02:49,775
+SEMI silicon wafer shipment trends.
+
+32
+00:02:49,775 --> 00:02:52,825
+Wafer pricing and long-term agreements.
+
+33
+00:02:52,825 --> 00:02:59,212
+Geographic and energy risk near major wafer fabs, including concentrated Japanese capacity.
+
+34
+00:02:59,212 --> 00:03:03,250
+And epitaxial capacity earmarked for advanced logic.
+
+35
+00:03:03,250 --> 00:03:09,587
+That is episode two: from electronic-grade melt to polished wafers — the bridge from chemistry to the fab.
+
+36
+00:03:09,587 --> 00:03:16,900
+Next time: inside the front-end fab, where lithography, etch, and deposition turn a blank wafer into a logic die.
+

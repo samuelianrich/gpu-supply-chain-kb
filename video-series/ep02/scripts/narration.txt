@@ -1,0 +1,19 @@
+From ingot to wafer. This is episode two of From Sand to GPU.
+
+Episode one ended with electronic-grade polysilicon — ultra-pure feedstock that still is not a chip. In this episode, that feedstock becomes a single crystal, then a stack of mirror-flat disks that a foundry can actually print transistors on.
+
+Electronic-grade polysilicon is melted in a fused-quartz crucible made from high-purity quartz. A seed crystal dips into the melt, and the Czochralski process slowly pulls a single-crystal ingot, sometimes called a boule. Dopants such as boron or phosphorus set the substrate resistivity the device designers ordered. This is where crystal quality is born — or where latent defects are locked in.
+
+The ingot is cropped, ground, and marked with a notch or flat for crystal orientation. Then a multi-wire saw slices it into raw wafers. Those slices are still rough. Lapping, etching, and precision polishing follow. Many logic wafers also receive an epitaxial layer — a thin, engineered crystal skin grown on the polished surface to improve the starting material for advanced devices.
+
+Leading-edge AI GPU logic is overwhelmingly built on three-hundred-millimeter wafers. That is the workhorse diameter for modern foundry capacity. Two-hundred-millimeter wafers still matter. Power-management ICs, analog parts, and specialty chips often ride two-hundred-millimeter lines — and they still show up on the same system board as a GPU, even when the compute die itself is three-hundred-millimeter.
+
+Silicon wafer supply is an oligopoly. The names that dominate industry maps include Shin-Etsu, SUMCO, GlobalWafers, Siltronic, and SK Siltron. Exact share percentages move year to year, so treat market-share figures as estimates unless they come from primary SEMI tables or company filings. The confirmed risk is concentration itself: a few producers, heavy CapEx, and long lead times.
+
+Wafer makers obsess over crystal defects, oxygen control, flatness, nanotopography, particles, and resistivity. A wafer that fails prime specs never becomes a leading-edge die. Expanding three-hundred-millimeter capacity takes years and enormous capital. It is not a short-cycle response when AI demand spikes overnight.
+
+For a modern AI accelerator, three-hundred-millimeter wafers feed more than the GPU logic die. Leading HBM DRAM is also wafer-based. In some CoWoS-S packaging flows, additional silicon is consumed as an interposer. Silicon intensity per shipped GPU package is higher than a single-chip story suggests.
+
+What should a supply-chain tracker watch after this episode? SEMI silicon wafer shipment trends. Wafer pricing and long-term agreements. Geographic and energy risk near major wafer fabs, including concentrated Japanese capacity. And epitaxial capacity earmarked for advanced logic.
+
+That is episode two: from electronic-grade melt to polished wafers — the bridge from chemistry to the fab. Next time: inside the front-end fab, where lithography, etch, and deposition turn a blank wafer into a logic die.

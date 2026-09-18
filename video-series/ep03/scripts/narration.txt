@@ -1,0 +1,21 @@
+Inside the front-end fab. This is episode three of From Sand to GPU.
+
+A blank three-hundred-millimeter wafer enters a fab. Hundreds to more than a thousand process steps later, that wafer holds transistors and metal interconnects — the logic die that advanced packaging will later marry to high-bandwidth memory.
+
+Front-end-of-line work forms the transistors. The loop repeats across modules: cleans and surface prep, thin films and oxidation, photolithography to transfer patterns, plasma or wet etch to carve them, ion implant and anneal to dope, deposition methods such as CVD and ALD, and chemical-mechanical planarization to flatten the topography. At the leading edge, those modules build FinFET or gate-all-around transistor structures.
+
+Back-end-of-line work builds the wiring. Modern logic typically uses copper dual-damascene interconnects with low-k or ultra-low-k dielectrics stacked across many metal layers, then passivation and pad or bump preparation for packaging. Exact metal-layer counts are product-specific and often undisclosed, so treat layer-count rumors carefully.
+
+Business models matter as much as process modules. AI GPUs from companies like NVIDIA are usually fabless designs manufactured at foundries such as TSMC. NVIDIA’s disclosures emphasize reliance on third parties to manufacture, assemble, package, and test products. High-bandwidth memory, by contrast, typically comes from integrated device manufacturers that design and fabricate in-house.
+
+Lithography is the headline bottleneck — and it is also misunderstood. Extreme ultraviolet scanners from ASML pattern the most critical fine layers at advanced nodes. Deep-ultraviolet immersion tools still handle a large share of layers even on so-called EUV nodes. EUV does not replace the entire lithography stack. High-NA EUV is the next density step, with early tool scarcity as part of the roadmap story.
+
+Around lithography sit etch, deposition, implant, CMP, wet clean, and metrology. Segment leaders include firms such as ASML, Applied Materials, Lam Research, Tokyo Electron, KLA, and others. The exact tool-of-record inside a specific foundry node for a specific NVIDIA die is usually unknown in public sources — and should be labeled that way.
+
+Yield economics get brutal on large GPU dies. One killer defect can destroy an enormous amount of silicon value, especially near-reticle-scale compute tiles. Multi-die packages can shift some burden into known-good-die strategies at packaging time. Export controls on advanced tools and nodes add geographic policy risk on top of physics and CapEx.
+
+The front-end’s job for an AI platform is to produce GPU compute dies — and often companion silicon such as I/O dies, CPU dies like Vera, and networking or DPU chips that may not all share the same leading-edge node. Those dies then leave the classic single-chip path and enter advanced packaging with HBM.
+
+Trackers should watch foundry CapEx and wafer pricing by node, ASML EUV shipments and backlog, foundry commentary on high-performance computing mix, export-control entity lists, and photomask lead times that gate tapeout velocity.
+
+That is episode three: blank wafer to logic die. Next time: advanced packaging — CoWoS-class integration, where the GPU finally meets the HBM stacks.
