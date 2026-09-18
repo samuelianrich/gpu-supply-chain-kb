@@ -44,6 +44,12 @@ Each tagged claim also needs a **citation**: URL + publisher + date accessed (or
 
 ---
 
+## Video series
+
+Narrated 3–5 min explainers derived from the lifecycle docs. See [video-series/README.md](video-series/README.md) for episodes.
+
+---
+
 ## Document map
 
 ```
