@@ -1,0 +1,65 @@
+[
+  {
+    "id": "01",
+    "file": "slide_01_1080.png",
+    "title": "Title",
+    "seconds_hint": 14,
+    "visual": "Vera Rubin rack-scale platform"
+  },
+  {
+    "id": "02",
+    "file": "slide_02_1080.png",
+    "title": "Naming",
+    "seconds_hint": 26,
+    "visual": "Vera CPU, Rubin GPU, NVL72"
+  },
+  {
+    "id": "03",
+    "file": "slide_03_1080.png",
+    "title": "Seven chips",
+    "seconds_hint": 30,
+    "visual": "Platform chip list + Groq 3 LPU"
+  },
+  {
+    "id": "04",
+    "file": "slide_04_1080.png",
+    "title": "Rack SKUs",
+    "seconds_hint": 32,
+    "visual": "NVL72, Vera CPU, Groq LPX, STX, SPX"
+  },
+  {
+    "id": "05",
+    "file": "slide_05_1080.png",
+    "title": "Confirmed GPU figures",
+    "seconds_hint": 34,
+    "visual": "336B transistors, HBM4, NVFP4, NVLink 6"
+  },
+  {
+    "id": "06",
+    "file": "slide_06_1080.png",
+    "title": "Confirmed Vera figures",
+    "seconds_hint": 28,
+    "visual": "88 cores, LPDDR5X, NVLink-C2C"
+  },
+  {
+    "id": "07",
+    "file": "slide_07_1080.png",
+    "title": "Partners & timing",
+    "seconds_hint": 24,
+    "visual": "H2 2026 partners; named clouds"
+  },
+  {
+    "id": "08",
+    "file": "slide_08_1080.png",
+    "title": "Honesty box",
+    "seconds_hint": 30,
+    "visual": "Node/CoWoS Likely/Unknown labels"
+  },
+  {
+    "id": "09",
+    "file": "slide_09_1080.png",
+    "title": "Next",
+    "seconds_hint": 16,
+    "visual": "Next: Architecture / TSMC path (future)"
+  }
+]

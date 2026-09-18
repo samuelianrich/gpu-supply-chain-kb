@@ -1,0 +1,65 @@
+[
+  {
+    "id": "01",
+    "file": "slide_01_1080.png",
+    "title": "Title",
+    "seconds_hint": 14,
+    "visual": "Title card: Advanced Packaging \u2014 CoWoS-class integration"
+  },
+  {
+    "id": "02",
+    "file": "slide_02_1080.png",
+    "title": "Not finished after fab",
+    "seconds_hint": 28,
+    "visual": "Logic die + HBM need 2.5D/3D packaging"
+  },
+  {
+    "id": "03",
+    "file": "slide_03_1080.png",
+    "title": "CoWoS family",
+    "seconds_hint": 32,
+    "visual": "CoWoS-S / CoWoS-L / CoWoS-R variants"
+  },
+  {
+    "id": "04",
+    "file": "slide_04_1080.png",
+    "title": "SoIC adjacent",
+    "seconds_hint": 22,
+    "visual": "SoIC bonding adjacent; Rubin use Unknown"
+  },
+  {
+    "id": "05",
+    "file": "slide_05_1080.png",
+    "title": "Inputs & materials",
+    "seconds_hint": 26,
+    "visual": "KGD, interposer/bridges, microbumps, ABF substrate"
+  },
+  {
+    "id": "06",
+    "file": "slide_06_1080.png",
+    "title": "Capacity geography",
+    "seconds_hint": 30,
+    "visual": "TSMC AP Taiwan; OSAT alternatives"
+  },
+  {
+    "id": "07",
+    "file": "slide_07_1080.png",
+    "title": "Yield & lead times",
+    "seconds_hint": 30,
+    "visual": "Warpage; 52\u201378 weeks Estimated"
+  },
+  {
+    "id": "08",
+    "file": "slide_08_1080.png",
+    "title": "Tracker signals",
+    "seconds_hint": 26,
+    "visual": "CoWoS capacity, AP move-in, allocation"
+  },
+  {
+    "id": "09",
+    "file": "slide_09_1080.png",
+    "title": "Next",
+    "seconds_hint": 16,
+    "visual": "Next: Substrate, HBM & interposer"
+  }
+]

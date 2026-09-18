@@ -1,0 +1,19 @@
+Tools, materials, and gases. This is episode seven of From Sand to GPU.
+
+Every prior episode depends on an industrial base of equipment and materials. This layer explains why capacity cannot spike overnight. Tools have long lead times. Chemistries are qualified per process recipe. Specialty gases need purity and logistics.
+
+Start with equipment chokepoints. Lithography is dominated in practice by ASML extreme-ultraviolet scanners, with Zeiss SMT optics a high-dependency link — ASML’s EUV position is confirmed as a practical monopoly; Zeiss dependency is likely high. Deposition, etch, and CMP sit with Applied Materials, Lam Research, Tokyo Electron, and ASM — oligopolies by segment, likely. Metrology is often described as KLA-centric; share figures are estimated unless primary. Packaging bonders from firms such as ASMPT and BESI matter when CoWoS-class capacity ramps. Cleanrooms, ultrapure water, and abatement make fab CapEx a multi-year calendar.
+
+Materials are equally binding. Photoresists for advanced lithography are Japan-centric among suppliers such as JSR, TOK, Shin-Etsu, Fujifilm, and Sumitomo — likely. Photomask blanks involve Shin-Etsu and others. CMP slurries and pads are specialty chemistries. ALD and CVD precursors are qualified node by node. ABF film for advanced substrates is Ajinomoto’s confirmed product role via company IR. Solder and underfill have multiple suppliers.
+
+Specialty gases run through front-end and back-end recipes. Illustrative examples — not a full bill of materials — include ultra-high-purity nitrogen, argon, and helium; hydrogen and oxygen; and process gases such as NF3, CF4, C4F8, chlorine, HBr, and WF6. Bulk and cylinder logistics matter; some fabs generate nitrogen on site. Regional majors such as Air Liquide, Linde, and Air Products are likely suppliers; fab contracts are rarely public.
+
+Risk notes stay honest. A single resist-plant outage can ripple across advanced nodes — historical event narratives exist, but specific percent-impact claims are estimated unless primary. Helium supply shocks intermittently affect some tools. Export controls on tools matter as much as controls on chips. The full qualified materials list for a specific TSMC node plus CoWoS-L flow used on Rubin is unknown — proprietary.
+
+How does this feed an AI GPU ramp? Simultaneously four ways: wafer-start limited by EUV and foundry tools; package limited by CoWoS tools and HBM; materials limited by resist, ABF, and gases; and system limited by power, cooling, and ODM capacity. Equipment and materials are the CapEx calendar behind those limits.
+
+Trackers should watch ASML shipment and backlog commentary from primary IR, wafer-fab-equipment spend forecasts from SEMI and vendors, resist or specialty-chem force-majeure notices, industrial-gas commentary including helium, and CapEx guides from TSMC, Samsung, and Intel.
+
+
+OECD and industry bottleneck atlases are useful checklists for concentration risk, but quantify only after validating against primary filings.
+That is episode seven: the invisible stack under sand-to-GPU. Next time: Meet Vera Rubin — NVIDIA’s rack-scale platform, using only confirmed public figures.

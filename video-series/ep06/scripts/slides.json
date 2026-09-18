@@ -1,0 +1,65 @@
+[
+  {
+    "id": "01",
+    "file": "slide_01_1080.png",
+    "title": "Title",
+    "seconds_hint": 14,
+    "visual": "From package to shippable rack"
+  },
+  {
+    "id": "02",
+    "file": "slide_02_1080.png",
+    "title": "Wafer sort",
+    "seconds_hint": 24,
+    "visual": "Known Good Die at front-end exit"
+  },
+  {
+    "id": "03",
+    "file": "slide_03_1080.png",
+    "title": "Package assembly",
+    "seconds_hint": 26,
+    "visual": "Attach, balls, lid, dry-pack"
+  },
+  {
+    "id": "04",
+    "file": "slide_04_1080.png",
+    "title": "Final & system test",
+    "seconds_hint": 30,
+    "visual": "ATE, burn-in, SLT for AI GPUs"
+  },
+  {
+    "id": "05",
+    "file": "slide_05_1080.png",
+    "title": "Board to rack",
+    "seconds_hint": 32,
+    "visual": "Trays, NVLink, CDUs; modular trays Confirmed"
+  },
+  {
+    "id": "06",
+    "file": "slide_06_1080.png",
+    "title": "Partners & materials",
+    "seconds_hint": 28,
+    "visual": "ODM/OEM partners; PCBs, cooling, firmware"
+  },
+  {
+    "id": "07",
+    "file": "slide_07_1080.png",
+    "title": "Yield shifts late",
+    "seconds_hint": 26,
+    "visual": "HBM lanes; rack bring-up risk"
+  },
+  {
+    "id": "08",
+    "file": "slide_08_1080.png",
+    "title": "Tracker signals",
+    "seconds_hint": 26,
+    "visual": "ATE, ODM throughput, cooling QDs"
+  },
+  {
+    "id": "09",
+    "file": "slide_09_1080.png",
+    "title": "Next",
+    "seconds_hint": 16,
+    "visual": "Next: Equipment & materials"
+  }
+]

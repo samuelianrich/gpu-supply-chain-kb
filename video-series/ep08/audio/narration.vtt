@@ -1,0 +1,104 @@
+1
+00:00:00,100 --> 00:00:02,125
+Meet Vera Rubin.
+
+2
+00:00:02,075 --> 00:00:05,600
+This is episode eight of From Sand to GPU.
+
+3
+00:00:05,600 --> 00:00:11,287
+Vera Rubin is NVIDIA’s rack-scale AI platform succeeding Grace Blackwell-era systems.
+
+4
+00:00:11,287 --> 00:00:16,537
+It co-designs multiple chips so the rack — and the POD — is the unit of compute.
+
+5
+00:00:16,537 --> 00:00:22,862
+That framing is confirmed from NVIDIA Newsroom and the NVIDIA Technical Blog in early twenty-twenty-six.
+
+6
+00:00:22,862 --> 00:00:24,800
+Naming first.
+
+7
+00:00:24,800 --> 00:00:31,250
+Vera is the custom Arm-compatible CPU with Olympus cores, on a successor trajectory to Grace.
+
+8
+00:00:31,250 --> 00:00:36,387
+Rubin is the GPU accelerator with HBM4 and Transformer Engine.
+
+9
+00:00:36,387 --> 00:00:42,412
+Vera Rubin platform means the full chip, rack, networking, storage, and software stack.
+
+10
+00:00:42,412 --> 00:00:49,512
+NVL72 is the flagship rack integrating seventy-two Rubin GPUs and thirty-six Vera CPUs.
+
+11
+00:00:49,512 --> 00:01:00,725
+NVIDIA states the platform brings together Vera CPU, Rubin GPU, NVLink 6 Switch, ConnectX-9 SuperNIC, BlueField-4 DPU, and Spectrum-6 Ethernet switch.
+
+12
+00:01:00,725 --> 00:01:07,125
+A GTC twenty-twenty-six update newly integrates NVIDIA Groq 3 LPU as a seventh chip.
+
+13
+00:01:07,125 --> 00:01:13,275
+The Technical Blog initially framed six new chips; the Newsroom update adds Groq 3 — confirmed.
+
+14
+00:01:13,275 --> 00:01:36,887
+Public rack SKUs include Vera Rubin NVL72; a Vera CPU Rack with two-hundred-fifty-six Vera CPUs in a liquid-cooled MGX form; a Groq 3 LPX Rack with two-hundred-fifty-six LPU processors; a BlueField-4 STX Storage Rack for AI-native KV-cache and context memory; and a Spectrum-6 SPX Ethernet Rack for scale-out, configurable for Spectrum-X or Quantum-X800 InfiniBand.
+
+15
+00:01:36,887 --> 00:01:41,712
+Partner products start in the second half of twenty-twenty-six — confirmed.
+
+16
+00:01:41,712 --> 00:01:49,037
+Named clouds include AWS, Google Cloud, Azure, and OCI, plus several GPU cloud providers.
+
+17
+00:01:49,037 --> 00:02:13,587
+Selected confirmed figures from NVIDIA tables: Rubin carries three-hundred-thirty-six billion transistors on the full chip, versus two-hundred-eight billion cited for Blackwell; two compute dies; fifty PFLOPS NVFP4 inference and thirty-five PFLOPS NVFP4 training; up to two-hundred-eighty-eight gigabytes of HBM4 at twenty-two terabytes per second per GPU; and three-point-six terabytes per second bidirectional NVLink 6 per GPU.
+
+18
+00:02:13,587 --> 00:02:26,962
+Vera offers eighty-eight Olympus cores and one-hundred-seventy-six spatial multithreads, up to one-point-five terabytes of LPDDR5X at up to one-point-two terabytes per second, and one-point-eight terabytes per second NVLink-C2C.
+
+19
+00:02:26,962 --> 00:02:32,137
+NVL72 is seventy-two GPUs plus thirty-six CPUs.
+
+20
+00:02:32,137 --> 00:02:42,212
+Honesty box for trackers: platform chip list, NVL72 composition, HBM4, and NVLink 6 bandwidths are confirmed from NVIDIA primary sources.
+
+21
+00:02:42,212 --> 00:02:55,187
+TSMC process node for Rubin — for example N3 or N3P — is likely in industry press but not consistently printed on the NVIDIA newsroom pages reviewed; treat node as non-confirmed until NVIDIA or TSMC primary.
+
+22
+00:02:55,187 --> 00:03:02,775
+CoWoS-L as packaging vehicle is likely from press and prior Blackwell path, but unknown as a NVIDIA product-page one-liner.
+
+23
+00:03:02,775 --> 00:03:08,125
+Exact HBM stack count, often discussed as eight, is likely secondary.
+
+24
+00:03:08,125 --> 00:03:14,162
+Die size in square millimeters and unit BOM dollar cost are unknown publicly in the sources reviewed.
+
+25
+00:03:14,162 --> 00:03:19,512
+That is episode eight: Meet Vera Rubin, grounded in confirmed NVIDIA figures.
+
+26
+00:03:19,512 --> 00:03:28,087
+Next time in the series arc: Vera Rubin architecture and the TSMC path — a future episode on how the platform maps onto process and packaging.
+

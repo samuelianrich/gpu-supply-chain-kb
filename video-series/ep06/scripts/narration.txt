@@ -1,0 +1,21 @@
+Assembly, test, and the rack. This is episode six of From Sand to GPU.
+
+A CoWoS-class package is still not what most hyperscalers receive. The path runs from wafer sort through package assembly and final test, then into trays and racks. For modern NVIDIA platforms, the shippable unit is often a tray or an NVL72 rack — not a bare BGA.
+
+Wafer sort comes first at front-end exit. Electrical test identifies known-good die. For large GPU dies, sort strategy and any repair heavily affect effective yield — that sensitivity is likely. Bad die that slip through become expensive scrap after packaging.
+
+Package assembly continues the bonding story: substrate attach, ball attach, lids or heat spreaders where the product needs them, then marking, baking, and dry-pack. Final test uses package-level automated test equipment for stuck-at faults, speed bins, HBM interface training, and power rails. Burn-in and high-temperature operating-life sampling support reliability qualification. System-level test is increasingly important for AI GPUs — a likely industry trend, because package ATE alone does not catch every rack bring-up failure.
+
+Board and rack assembly is where ODMs and OEMs take over. They build GPU baseboards and compute trays, NVLink switch trays, power shelves, coolant-distribution units, and full racks. Cabling and blind-mate midplanes matter; Vera Rubin materials emphasize modular, cable-free trays — confirmed in NVIDIA’s Technical Blog. Partners listed for Vera Rubin availability include major clouds and OEMs such as Dell, HPE, Lenovo, Supermicro, Quanta, Wistron, and Foxconn — confirmed from NVIDIA Newsroom in March twenty-twenty-six.
+
+Materials at this stage include packaged GPU, CPU, switch, NIC, and DPU components; high-layer server PCBs; connectors, cold plates, manifolds, and quick-disconnects; VRMs and bulk capacitors; thermal interface materials and EMI shields; plus firmware, BMC, and security roots of trust.
+
+Supplier map: TSMC advanced packaging finishes CoWoS; OSATs such as ASE, Amkor, and JCET may handle adjacent products. ATE leaders include Teradyne and Advantest. ODM and OEM names dominate rack throughput. Liquid-cooling ecosystem players such as Vertiv and CoolIT appear in industry maps — treat that set as likely.
+
+Yield risk shifts late. Discovering HBM lane failures after packaging is costly. Rack-scale products push yield into system bring-up — NVLink training, power sequencing, and thermal integrity. Counterfeit or gray-market board components remain a general electronics tracker risk.
+
+NVIDIA’s Vera Rubin materials describe hot-swappable trays, NVLink resiliency, and Mission Control operational software — confirmed. Partner product availability is described as starting in the second half of twenty-twenty-six — also confirmed. Exact OSAT split outside TSMC for Rubin final package test versus NVIDIA or ODM system-level test remains unknown.
+
+Trackers should watch ATE lead times, ODM rack throughput, liquid-cooling quick-disconnect and manifold shortages, system-level-test farm utilization, and partner general-availability timing.
+
+That is episode six: from known-good die to a shippable rack. Next time: equipment, materials, and gases — the CapEx calendar behind every bottleneck.

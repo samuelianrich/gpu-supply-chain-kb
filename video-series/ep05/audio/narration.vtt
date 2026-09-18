@@ -1,0 +1,148 @@
+1
+00:00:00,100 --> 00:00:03,287
+HBM, substrates, and bridges.
+
+2
+00:00:03,237 --> 00:00:06,887
+This is episode five of From Sand to GPU.
+
+3
+00:00:06,887 --> 00:00:18,137
+Advanced packaging only works when three distinct supply chains arrive on time: high-bandwidth memory stacks, an interposer or local silicon bridges, and a high-layer-count organic package substrate.
+
+4
+00:00:18,137 --> 00:00:20,362
+Start with HBM.
+
+5
+00:00:20,362 --> 00:00:29,075
+DRAM makers build three-D-stacked memory with a base die and through-silicon vias, sold as stacks that sit beside the GPU on the interposer or RDL.
+
+6
+00:00:29,075 --> 00:00:33,537
+HBM3E was the volume workhorse into the mid-twenty-twenties.
+
+7
+00:00:33,537 --> 00:00:35,950
+HBM4 is next.
+
+8
+00:00:35,950 --> 00:00:42,125
+NVIDIA’s Rubin materials publicly pair the GPU with HBM4 — that pairing is confirmed.
+
+9
+00:00:42,125 --> 00:00:47,987
+The three major vendors are SK hynix, Samsung, and Micron — confirmed as the industry set.
+
+10
+00:00:47,987 --> 00:00:52,725
+Which vendor is qualified for which customer at which moment is time-varying.
+
+11
+00:00:52,725 --> 00:00:55,512
+Next, the interconnect plane.
+
+12
+00:00:55,512 --> 00:01:01,725
+CoWoS-S uses a large silicon interposer to redistribute signals between logic and HBM.
+
+13
+00:01:01,725 --> 00:01:11,525
+CoWoS-L uses smaller local silicon interconnect bridges plus organic RDL to span multi-reticle assemblies — that description is likely per packaging analyses.
+
+14
+00:01:11,525 --> 00:01:17,412
+Interposer area scales poorly, which is why CoWoS-L adoption narratives keep showing up.
+
+15
+00:01:17,412 --> 00:01:27,337
+Beneath that assembly sits the organic package substrate — typically an advanced flip-chip BGA that uses Ajinomoto Build-up Film, or ABF, as the critical dielectric.
+
+16
+00:01:27,337 --> 00:01:35,437
+Ajinomoto’s IR discusses ABF as interlayer insulating material for logic IC package substrates — confirmed product role.
+
+17
+00:01:35,437 --> 00:01:46,925
+Substrate fabricators commonly named include Unimicron, Ibiden, Shinko, Nan Ya PCB, Samsung Electro-Mechanics, and AT and S — a likely leading set, not an exhaustive certified list.
+
+18
+00:01:46,925 --> 00:01:54,012
+Materials dependencies stack quickly: HBM needs DRAM wafers, TSV, and bonding at the memory IDM.
+
+19
+00:01:54,012 --> 00:01:58,312
+Interposers consume extra three-hundred-millimeter silicon.
+
+20
+00:01:58,312 --> 00:02:02,125
+Bridges are small silicon dies with fine interconnect.
+
+21
+00:02:02,125 --> 00:02:05,325
+ABF film comes from varnish to film.
+
+22
+00:02:05,325 --> 00:02:09,500
+Copper, glass cloth, and laminate feed substrate makers.
+
+23
+00:02:09,500 --> 00:02:13,125
+Solder bumps and balls close the mechanical stack.
+
+24
+00:02:13,125 --> 00:02:15,275
+Geography matters.
+
+25
+00:02:15,275 --> 00:02:19,900
+HBM capacity is centered in Korea with mixed Micron footprints.
+
+26
+00:02:19,900 --> 00:02:22,700
+ABF film is Japan-centric.
+
+27
+00:02:22,700 --> 00:02:27,237
+Substrates cluster in Taiwan, Japan, Korea, and Europe.
+
+28
+00:02:27,237 --> 00:02:32,350
+Interposer flow often sits inside TSMC’s packaging path in Taiwan.
+
+29
+00:02:32,350 --> 00:02:45,150
+Public NVIDIA figures for Rubin-class packages cite up to two-hundred-eighty-eight gigabytes of HBM4 and twenty-two terabytes per second per GPU — confirmed from NVIDIA Developer Blog and NVL72 product tables.
+
+30
+00:02:45,150 --> 00:02:53,975
+Stack count is commonly discussed as eight stacks in secondary writeups — likely; confirm against official datasheet line items before locking a BOM quantity.
+
+31
+00:02:53,975 --> 00:03:01,012
+Exact public split of Rubin HBM4 supply among the three vendors is unknown — contractual and rarely disclosed.
+
+32
+00:03:01,012 --> 00:03:07,275
+Risks: HBM qualification is customer- and generation-specific, so dual-sourcing is slow.
+
+33
+00:03:07,275 --> 00:03:18,687
+ABF and large substrates have been historical bottlenecks; twenty-twenty-six coverage describes renewed CapEx at major substrate makers — CapEx dollar figures in press are estimated unless primary.
+
+34
+00:03:18,687 --> 00:03:24,275
+Substrate quality gates signal integrity for HBM and SerDes escaping the package.
+
+35
+00:03:24,275 --> 00:03:37,875
+Trackers should watch HBM supplier earnings and sold-out commentary, NVIDIA’s three-vendor qualification health, Ajinomoto ABF CapEx, substrate lead times and layer counts for AI packages, and the HBM4 twelve-high versus eight-high mix.
+
+36
+00:03:37,875 --> 00:03:40,200
+That is episode five.
+
+37
+00:03:40,200 --> 00:03:45,912
+Next time: assembly, test, and the rack — where a package becomes a shippable AI system.
+

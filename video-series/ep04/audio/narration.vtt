@@ -1,0 +1,128 @@
+1
+00:00:00,100 --> 00:00:02,187
+Advanced packaging.
+
+2
+00:00:02,137 --> 00:00:05,737
+This is episode four of From Sand to GPU.
+
+3
+00:00:05,737 --> 00:00:10,650
+After the front-end fab, an AI GPU die is not a finished product.
+
+4
+00:00:10,650 --> 00:00:15,512
+It still has to meet high-bandwidth memory and leave as an integrated package.
+
+5
+00:00:15,512 --> 00:00:22,062
+That step is two-point-five-D and three-D advanced packaging — the class of flows often called CoWoS at TSMC.
+
+6
+00:00:22,062 --> 00:00:27,187
+At a high level, known-good logic dies and known-good HBM stacks are prepared.
+
+7
+00:00:27,187 --> 00:00:33,750
+Dies attach to a silicon interposer or to an organic redistribution layer with local silicon bridges.
+
+8
+00:00:33,750 --> 00:00:39,775
+The assembly bonds to an organic package substrate, often an ABF-based flip-chip BGA.
+
+9
+00:00:39,775 --> 00:00:43,025
+Then the package goes to a board or module.
+
+10
+00:00:43,025 --> 00:00:46,825
+TSMC’s CoWoS brand covers several variants.
+
+11
+00:00:46,825 --> 00:00:53,950
+CoWoS-S uses a classic silicon interposer — powerful, but reticle-size limits bite hard on giant packages.
+
+12
+00:00:53,950 --> 00:01:03,025
+CoWoS-L uses organic RDL with local silicon interconnect bridges, a path industry analysis calls likely for multi-die NVIDIA GPUs.
+
+13
+00:01:03,025 --> 00:01:07,525
+CoWoS-R is an RDL-focused variant, product-dependent.
+
+14
+00:01:07,525 --> 00:01:13,887
+Confirmed: CoWoS is TSMC’s platform for integrating logic with HBM in AI and HPC.
+
+15
+00:01:13,887 --> 00:01:19,850
+Exact CoWoS SKU for every product is not always a NVIDIA one-liner — label that carefully.
+
+16
+00:01:19,850 --> 00:01:27,250
+SoIC-style bonding sits adjacent: finer-pitch three-D stacking that may combine with two-point-five-D HBM integration.
+
+17
+00:01:27,250 --> 00:01:33,500
+Exact SoIC use on Vera Rubin is unknown without NVIDIA or TSMC primary confirmation.
+
+18
+00:01:33,500 --> 00:01:43,787
+Inputs include logic and HBM known-good die, interposer wafers or bridge dies, RDL materials, microbumps or hybrid bonds, underfill, and the package substrate.
+
+19
+00:01:43,787 --> 00:01:47,862
+Thermal interface materials show up later at module level.
+
+20
+00:01:47,862 --> 00:01:50,412
+Capacity is concentrated.
+
+21
+00:01:50,412 --> 00:01:59,462
+TSMC advanced-packaging sites in Taiwan — Longtan, Taichung, Zhunan, Chiayi, and Tainan expansions in industry press — carry the HPC narrative.
+
+22
+00:01:59,462 --> 00:02:04,337
+Treat specific site lists as likely until verified against TSMC.
+
+23
+00:02:04,337 --> 00:02:14,050
+OSAT players such as Amkor and ASE grow advanced packaging, but NVIDIA HPC has historically been CoWoS-centric — again, likely, not a universal rule.
+
+24
+00:02:14,050 --> 00:02:25,337
+Equipment classes include chip-on-wafer bonders, wafer thinning and TSV reveal, RDL patterning, flip-chip bonders, underfill, and inspection such as X-ray and scanning acoustic microscopy.
+
+25
+00:02:25,337 --> 00:02:31,462
+Yield risk scales with package size: warpage, thermo-mechanical stress, and microbump yield.
+
+26
+00:02:31,462 --> 00:02:38,887
+CoWoS-L trades giant-interposer yield risk for bridge-plus-RDL complexity — that trade is a likely analyst narrative.
+
+27
+00:02:38,887 --> 00:02:49,887
+Lead times of fifty-two to seventy-eight weeks for CoWoS slots appear repeatedly in secondary twenty-twenty-six trackers — estimated, useful as a signal, not a hard TSMC primary fact.
+
+28
+00:02:49,887 --> 00:02:55,250
+Without CoWoS-class capacity, front-end wafers sit as unfinished inventory.
+
+29
+00:02:55,250 --> 00:03:01,562
+This is where a GPU becomes an AI accelerator package — multi-die logic plus HBM stacks.
+
+30
+00:03:01,562 --> 00:03:15,637
+Trackers should watch TSMC earnings commentary on CoWoS capacity, equipment move-in at advanced-packaging sites, estimated NVIDIA allocation share in the press, package-size rumors that stress substrates and yield, and competing OSAT offerings.
+
+31
+00:03:15,637 --> 00:03:18,937
+That is episode four: advanced packaging.
+
+32
+00:03:18,937 --> 00:03:25,287
+Next time: substrates, HBM, and interposers — the three supply chains that converge on the package.
+

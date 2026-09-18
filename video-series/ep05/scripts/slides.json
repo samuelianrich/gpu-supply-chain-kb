@@ -1,0 +1,65 @@
+[
+  {
+    "id": "01",
+    "file": "slide_01_1080.png",
+    "title": "Title",
+    "seconds_hint": 14,
+    "visual": "Three supply chains converge"
+  },
+  {
+    "id": "02",
+    "file": "slide_02_1080.png",
+    "title": "HBM stacks",
+    "seconds_hint": 30,
+    "visual": "HBM3E to HBM4; SK hynix, Samsung, Micron"
+  },
+  {
+    "id": "03",
+    "file": "slide_03_1080.png",
+    "title": "Interposer vs bridges",
+    "seconds_hint": 28,
+    "visual": "CoWoS-S interposer vs CoWoS-L LSI bridges"
+  },
+  {
+    "id": "04",
+    "file": "slide_04_1080.png",
+    "title": "ABF substrates",
+    "seconds_hint": 28,
+    "visual": "Ajinomoto ABF FC-BGA; fabricators"
+  },
+  {
+    "id": "05",
+    "file": "slide_05_1080.png",
+    "title": "Materials map",
+    "seconds_hint": 26,
+    "visual": "DRAM, Si, ABF film, copper laminate"
+  },
+  {
+    "id": "06",
+    "file": "slide_06_1080.png",
+    "title": "Geography",
+    "seconds_hint": 24,
+    "visual": "Korea HBM; Japan ABF; TW/JP substrates"
+  },
+  {
+    "id": "07",
+    "file": "slide_07_1080.png",
+    "title": "Rubin memory figures",
+    "seconds_hint": 30,
+    "visual": "288 GB HBM4 / 22 TB/s Confirmed"
+  },
+  {
+    "id": "08",
+    "file": "slide_08_1080.png",
+    "title": "Tracker signals",
+    "seconds_hint": 26,
+    "visual": "HBM earnings, ABF CapEx, lead times"
+  },
+  {
+    "id": "09",
+    "file": "slide_09_1080.png",
+    "title": "Next",
+    "seconds_hint": 16,
+    "visual": "Next: Assembly & test"
+  }
+]

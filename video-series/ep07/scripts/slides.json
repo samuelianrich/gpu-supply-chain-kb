@@ -1,0 +1,65 @@
+[
+  {
+    "id": "01",
+    "file": "slide_01_1080.png",
+    "title": "Title",
+    "seconds_hint": 14,
+    "visual": "The CapEx calendar behind bottlenecks"
+  },
+  {
+    "id": "02",
+    "file": "slide_02_1080.png",
+    "title": "Equipment chokepoints",
+    "seconds_hint": 32,
+    "visual": "ASML EUV; AMAT/Lam/TEL; packaging bonders"
+  },
+  {
+    "id": "03",
+    "file": "slide_03_1080.png",
+    "title": "Materials stack",
+    "seconds_hint": 30,
+    "visual": "Resists, masks, CMP, precursors, ABF"
+  },
+  {
+    "id": "04",
+    "file": "slide_04_1080.png",
+    "title": "Specialty gases",
+    "seconds_hint": 28,
+    "visual": "UHP N2/Ar/He and process gases"
+  },
+  {
+    "id": "05",
+    "file": "slide_05_1080.png",
+    "title": "Concentration risk",
+    "seconds_hint": 26,
+    "visual": "Plant outages; helium; export controls"
+  },
+  {
+    "id": "06",
+    "file": "slide_06_1080.png",
+    "title": "Four simultaneous limits",
+    "seconds_hint": 30,
+    "visual": "Wafer, package, materials, system"
+  },
+  {
+    "id": "07",
+    "file": "slide_07_1080.png",
+    "title": "Unknowns",
+    "seconds_hint": 22,
+    "visual": "Full qualified BOM for Rubin path Unknown"
+  },
+  {
+    "id": "08",
+    "file": "slide_08_1080.png",
+    "title": "Tracker signals",
+    "seconds_hint": 26,
+    "visual": "ASML IR, WFE, chem notices, CapEx guides"
+  },
+  {
+    "id": "09",
+    "file": "slide_09_1080.png",
+    "title": "Next",
+    "seconds_hint": 16,
+    "visual": "Next: Meet Vera Rubin"
+  }
+]

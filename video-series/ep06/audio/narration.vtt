@@ -1,0 +1,128 @@
+1
+00:00:00,100 --> 00:00:02,987
+Assembly, test, and the rack.
+
+2
+00:00:02,937 --> 00:00:06,600
+This is episode six of From Sand to GPU.
+
+3
+00:00:06,600 --> 00:00:11,212
+A CoWoS-class package is still not what most hyperscalers receive.
+
+4
+00:00:11,212 --> 00:00:17,000
+The path runs from wafer sort through package assembly and final test, then into trays and racks.
+
+5
+00:00:17,000 --> 00:00:24,362
+For modern NVIDIA platforms, the shippable unit is often a tray or an NVL72 rack — not a bare BGA.
+
+6
+00:00:24,362 --> 00:00:27,662
+Wafer sort comes first at front-end exit.
+
+7
+00:00:27,662 --> 00:00:31,137
+Electrical test identifies known-good die.
+
+8
+00:00:31,137 --> 00:00:38,250
+For large GPU dies, sort strategy and any repair heavily affect effective yield — that sensitivity is likely.
+
+9
+00:00:38,250 --> 00:00:42,475
+Bad die that slip through become expensive scrap after packaging.
+
+10
+00:00:42,475 --> 00:00:52,025
+Package assembly continues the bonding story: substrate attach, ball attach, lids or heat spreaders where the product needs them, then marking, baking, and dry-pack.
+
+11
+00:00:52,025 --> 00:01:00,187
+Final test uses package-level automated test equipment for stuck-at faults, speed bins, HBM interface training, and power rails.
+
+12
+00:01:00,187 --> 00:01:05,687
+Burn-in and high-temperature operating-life sampling support reliability qualification.
+
+13
+00:01:05,687 --> 00:01:15,137
+System-level test is increasingly important for AI GPUs — a likely industry trend, because package ATE alone does not catch every rack bring-up failure.
+
+14
+00:01:15,137 --> 00:01:19,212
+Board and rack assembly is where ODMs and OEMs take over.
+
+15
+00:01:19,212 --> 00:01:26,950
+They build GPU baseboards and compute trays, NVLink switch trays, power shelves, coolant-distribution units, and full racks.
+
+16
+00:01:26,950 --> 00:01:35,462
+Cabling and blind-mate midplanes matter; Vera Rubin materials emphasize modular, cable-free trays — confirmed in NVIDIA’s Technical Blog.
+
+17
+00:01:35,462 --> 00:01:47,975
+Partners listed for Vera Rubin availability include major clouds and OEMs such as Dell, HPE, Lenovo, Supermicro, Quanta, Wistron, and Foxconn — confirmed from NVIDIA Newsroom in March twenty-twenty-six.
+
+18
+00:01:47,975 --> 00:02:06,525
+Materials at this stage include packaged GPU, CPU, switch, NIC, and DPU components; high-layer server PCBs; connectors, cold plates, manifolds, and quick-disconnects; VRMs and bulk capacitors; thermal interface materials and EMI shields; plus firmware, BMC, and security roots of trust.
+
+19
+00:02:06,525 --> 00:02:14,712
+Supplier map: TSMC advanced packaging finishes CoWoS; OSATs such as ASE, Amkor, and JCET may handle adjacent products.
+
+20
+00:02:14,712 --> 00:02:18,400
+ATE leaders include Teradyne and Advantest.
+
+21
+00:02:18,400 --> 00:02:22,062
+ODM and OEM names dominate rack throughput.
+
+22
+00:02:22,062 --> 00:02:28,562
+Liquid-cooling ecosystem players such as Vertiv and CoolIT appear in industry maps — treat that set as likely.
+
+23
+00:02:28,562 --> 00:02:30,887
+Yield risk shifts late.
+
+24
+00:02:30,887 --> 00:02:35,137
+Discovering HBM lane failures after packaging is costly.
+
+25
+00:02:35,137 --> 00:02:42,075
+Rack-scale products push yield into system bring-up — NVLink training, power sequencing, and thermal integrity.
+
+26
+00:02:42,075 --> 00:02:47,450
+Counterfeit or gray-market board components remain a general electronics tracker risk.
+
+27
+00:02:47,450 --> 00:02:56,100
+NVIDIA’s Vera Rubin materials describe hot-swappable trays, NVLink resiliency, and Mission Control operational software — confirmed.
+
+28
+00:02:56,100 --> 00:03:02,687
+Partner product availability is described as starting in the second half of twenty-twenty-six — also confirmed.
+
+29
+00:03:02,687 --> 00:03:10,825
+Exact OSAT split outside TSMC for Rubin final package test versus NVIDIA or ODM system-level test remains unknown.
+
+30
+00:03:10,825 --> 00:03:21,875
+Trackers should watch ATE lead times, ODM rack throughput, liquid-cooling quick-disconnect and manifold shortages, system-level-test farm utilization, and partner general-availability timing.
+
+31
+00:03:21,875 --> 00:03:26,162
+That is episode six: from known-good die to a shippable rack.
+
+32
+00:03:26,162 --> 00:03:32,262
+Next time: equipment, materials, and gases — the CapEx calendar behind every bottleneck.
+

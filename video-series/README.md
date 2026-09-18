@@ -1,23 +1,20 @@
 # From Sand to GPU — video series
 
-Narrated 16:9 explainers (~3–5 min) derived from `docs/01-lifecycle-sand-to-chip/` and related knowledge-base pages.
+Narrated 16:9 explainers (~3–5 min) derived from the knowledge base.
+
+## Episodes
+| Episode | Title | Source | Status |
+|---------|-------|--------|--------|
+| 01 | From Quartz to Polysilicon | `01-quartz-and-polysilicon.md` | On main |
+| 02 | From Ingot to Wafer | `02-ingot-wafer.md` | On main |
+| 03 | Inside the Front-End Fab | `03-front-end-fab.md` | On main |
+| 04 | Advanced Packaging | `04-advanced-packaging.md` | This PR |
+| 05 | HBM, Substrates, and Bridges | `05-substrate-hbm-interposer.md` | This PR |
+| 06 | Assembly, Test, and the Rack | `06-assembly-test.md` | This PR |
+| 07 | Tools, Materials, and Gases | `07-equipment-materials-gases.md` | This PR |
+| 08 | Meet Vera Rubin | `docs/02-nvidia-vera-rubin/product-overview.md` | This PR |
 
 ## Format
 - Generated educational slides + TTS narration + ffmpeg assembly
-- Claims follow the same Evidence discipline as the markdown KB (Confirmed / Likely / Estimated / Speculative / Unknown)
-- Slides must not invent dashboard metrics; use conceptual labels only
-
-## Episodes
-| Episode | Title | Source doc | Status |
-|---------|-------|------------|--------|
-| 01 | From Quartz to Polysilicon | `docs/01-lifecycle-sand-to-chip/01-quartz-and-polysilicon.md` | Pilot MP4 in `ep01/out/` |
-
-## Episode 01 layout
-- `ep01/scripts/narration.txt` — teleprompter / TTS script
-- `ep01/scripts/slides.json` — slide plan
-- `ep01/slides/` — 1920×1080 frames
-- `ep01/audio/` — narration MP3 + VTT
-- `ep01/out/ep01-from-quartz-to-polysilicon.mp4` — assembled pilot
-
-## Large media
-The assembled MP4 is committed at `video-series/ep01/out/ep01-from-quartz-to-polysilicon.mp4` (~15MB).
+- No invented dashboard metrics on slides
+- Evidence language follows the markdown KB

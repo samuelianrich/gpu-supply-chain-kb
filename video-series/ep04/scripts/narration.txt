@@ -1,0 +1,21 @@
+Advanced packaging. This is episode four of From Sand to GPU.
+
+After the front-end fab, an AI GPU die is not a finished product. It still has to meet high-bandwidth memory and leave as an integrated package. That step is two-point-five-D and three-D advanced packaging — the class of flows often called CoWoS at TSMC.
+
+At a high level, known-good logic dies and known-good HBM stacks are prepared. Dies attach to a silicon interposer or to an organic redistribution layer with local silicon bridges. The assembly bonds to an organic package substrate, often an ABF-based flip-chip BGA. Then the package goes to a board or module.
+
+TSMC’s CoWoS brand covers several variants. CoWoS-S uses a classic silicon interposer — powerful, but reticle-size limits bite hard on giant packages. CoWoS-L uses organic RDL with local silicon interconnect bridges, a path industry analysis calls likely for multi-die NVIDIA GPUs. CoWoS-R is an RDL-focused variant, product-dependent. Confirmed: CoWoS is TSMC’s platform for integrating logic with HBM in AI and HPC. Exact CoWoS SKU for every product is not always a NVIDIA one-liner — label that carefully.
+
+SoIC-style bonding sits adjacent: finer-pitch three-D stacking that may combine with two-point-five-D HBM integration. Exact SoIC use on Vera Rubin is unknown without NVIDIA or TSMC primary confirmation.
+
+Inputs include logic and HBM known-good die, interposer wafers or bridge dies, RDL materials, microbumps or hybrid bonds, underfill, and the package substrate. Thermal interface materials show up later at module level.
+
+Capacity is concentrated. TSMC advanced-packaging sites in Taiwan — Longtan, Taichung, Zhunan, Chiayi, and Tainan expansions in industry press — carry the HPC narrative. Treat specific site lists as likely until verified against TSMC. OSAT players such as Amkor and ASE grow advanced packaging, but NVIDIA HPC has historically been CoWoS-centric — again, likely, not a universal rule. Equipment classes include chip-on-wafer bonders, wafer thinning and TSV reveal, RDL patterning, flip-chip bonders, underfill, and inspection such as X-ray and scanning acoustic microscopy.
+
+Yield risk scales with package size: warpage, thermo-mechanical stress, and microbump yield. CoWoS-L trades giant-interposer yield risk for bridge-plus-RDL complexity — that trade is a likely analyst narrative. Lead times of fifty-two to seventy-eight weeks for CoWoS slots appear repeatedly in secondary twenty-twenty-six trackers — estimated, useful as a signal, not a hard TSMC primary fact.
+
+Without CoWoS-class capacity, front-end wafers sit as unfinished inventory. This is where a GPU becomes an AI accelerator package — multi-die logic plus HBM stacks.
+
+Trackers should watch TSMC earnings commentary on CoWoS capacity, equipment move-in at advanced-packaging sites, estimated NVIDIA allocation share in the press, package-size rumors that stress substrates and yield, and competing OSAT offerings.
+
+That is episode four: advanced packaging. Next time: substrates, HBM, and interposers — the three supply chains that converge on the package.
