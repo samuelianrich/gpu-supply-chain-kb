@@ -11,13 +11,16 @@ Narrated 16:9 explainers (~3–5 min) derived from `docs/01-lifecycle-sand-to-ch
 | Episode | Title | Source doc | Status |
 |---------|-------|------------|--------|
 | 01 | From Quartz to Polysilicon | `docs/01-lifecycle-sand-to-chip/01-quartz-and-polysilicon.md` | Pilot MP4 in `ep01/out/` |
+| 02 | From Ingot to Wafer | `docs/01-lifecycle-sand-to-chip/02-ingot-wafer.md` | Pilot MP4 in `ep02/out/` |
+| 03 | Inside the Front-End Fab | `docs/01-lifecycle-sand-to-chip/03-front-end-fab.md` | Pilot MP4 in `ep03/out/` |
 
-## Episode 01 layout
-- `ep01/scripts/narration.txt` — teleprompter / TTS script
-- `ep01/scripts/slides.json` — slide plan
-- `ep01/slides/` — 1920×1080 frames
-- `ep01/audio/` — narration MP3 + VTT
-- `ep01/out/ep01-from-quartz-to-polysilicon.mp4` — assembled pilot
+## Episode layout
+Each episode follows this structure:
+- `epNN/scripts/narration.txt` — teleprompter / TTS script
+- `epNN/scripts/slides.json` — slide plan
+- `epNN/slides/` — 1920×1080 frames
+- `epNN/audio/` — narration MP3 + VTT
+- `epNN/out/epNN-title.mp4` — assembled pilot
 
 ## Large media
-The assembled MP4 is committed at `video-series/ep01/out/ep01-from-quartz-to-polysilicon.mp4` (~15MB).
+The assembled MP4 files are committed in each episode's `out/` directory (~13–15MB each).
