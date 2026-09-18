@@ -1,0 +1,17 @@
+From quartz to polysilicon. This is episode one of From Sand to GPU — a supply-chain series drawn from our semiconductor knowledge base, with claims labeled the same way we label them in the docs: confirmed, likely, estimated, or still unknown.
+
+Start with the myth. Popular stories say computer chips begin as beach sand. That line is sticky because silicon dioxide is everywhere. But semiconductor silicon does not start as casual shoreline grit. It starts as silica selected for chemistry and contamination control — typically quartzite or high-purity quartz — then mined and beneficiated before any furnace ever lights.
+
+Next comes carbothermic reduction in submerged-arc furnaces. Carbon reductants and intense electricity convert silica into metallurgical-grade silicon, often called M G silicon, at roughly ninety-eight to ninety-nine percent purity. That material is industrially valuable. It is still nowhere near ready for a leading-edge logic die.
+
+To climb the purity ladder, producers run chemical purification. Common industrial routes move through chlorosilanes and Siemens-style chemical vapor deposition, growing polysilicon as rods or chunks. This stage is where specialty chemicals, distillation trains, clean handling, and brutal energy intensity show up. Qualification is the real product: a plant can make silicon and still fail electronic-grade acceptance.
+
+Polysilicon then splits into two markets that share chemistry but not destiny. Solar-grade polysilicon is extremely pure and volume-driven — it feeds the photovoltaic boom. Electronic-grade polysilicon is rarer. It is the ultra-high-purity feedstock for Czochralski crystal growth, and only a small set of producers reliably qualify for semiconductor wafers. Solar and electronic grades are not freely interchangeable without requalification.
+
+There is a second choke point most GPU buyers never see: high-purity quartz used to make fused-quartz crucibles for crystal growth. Geology is concentrated. United States sources such as the Spruce Pine area appear repeatedly in mineral surveys, alongside other global deposits. Mine disruptions, storms, or crucible bottlenecks can ripple into wafer capacity. If you track AI hardware, this is a real early-warning signal, not trivia.
+
+Why does any of this matter for an AI GPU? Without electronic-grade polysilicon, you do not get three-hundred-millimeter wafers. Without those wafers, foundries cannot print modern logic dies. Without those dies, there is no advanced package stuffed with high-bandwidth memory. Memory chips drink from the same silicon river. So when people debate CoWoS capacity and HBM allocation, remember the chain begins upstream — in quartz, furnaces, and electronic-grade qualification.
+
+What should a supply-chain tracker watch from this episode? High-purity quartz and crucible disruptions. Electronic-grade polysilicon contracts, spot chatter, and qualification news. Geographic concentration of electronic-grade capacity. And energy costs in metallurgical silicon regions, because electricity is part of the bill of materials long before a GPU has a name.
+
+That is episode one: from quartz to electronic-grade polysilicon — the chemical foundation under every AI accelerator. Next time: pulling single-crystal ingots and slicing three-hundred-millimeter wafers, the bridge from chemistry to the fab.
